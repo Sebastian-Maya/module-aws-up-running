@@ -1,18 +1,7 @@
 ************* READ ME or NOT *************
 
 Terraform Up & Running
-
-  --> Module Versioning Lab on AWS + Terraform
-    --> Module Name = module-aws-up-running
-    --> Module Type = Web Server Cluster
-    --> Module Used by = Stage and Prod
-
-
-
-                  
-Module = = = = > live 
-                  |
-                  |
-            |-----------|
-            |           |
-          Stage        Prod
+  Module Versioning Lab on AWS + Terraform
+    Module Name = module-aws-up-running
+    Module Type = Web Server Cluster
+    Module Used by = Stage and Prod
