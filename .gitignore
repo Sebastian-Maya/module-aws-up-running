@@ -1,0 +1,20 @@
+# Ignorar carpetas internas de Terraform (plugins y módulos locales)
+**/.terraform/
+*.terraform/
+
+# Ignorar archivos de estado local (¡SEGURIDAD CRÍTICA!)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Ignorar archivos de variables con contraseñas
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignorar logs de fallos
+crash.log
+crash.*.log

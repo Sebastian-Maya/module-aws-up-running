@@ -1,0 +1,9 @@
+#!/bin/bash
+cat > index.xhtml <<EOF
+<h1>Hello, World</h1>
+echo "First Bash Script"
+<p>DB address: ${db_address}</p>
+<p>DB port: ${db_port}</p>
+EOF
+
+nohup busybox httpd -f -p ${server_port} &
